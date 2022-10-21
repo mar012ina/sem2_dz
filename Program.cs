@@ -42,11 +42,11 @@ void DayOfTheWeek(int day)
         Console.WriteLine("Это рабочий день.");
     }
 }
-Console.Write("Введите число: ");
+Console.Write("Введите число от 1 до 7: ");
 int day = Convert.ToInt32(Console.ReadLine());
 DayOfTheWeek(day);
 
-/*  if (day > 7 or day < 1)
+/*  if (day > 7 || day < 1)
     {
         Console.WriteLine("Введите другое число");
     }
